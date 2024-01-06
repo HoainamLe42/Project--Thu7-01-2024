@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Những thẻ này có font-family mặc định nên không được kế thừa lại */
+input,
+textarea,
+select,
+button {
+  /* Cho nó kế thừa lại nên dùng inherit */
+  font-family: inherit;
+  font-size: inherit;
+}
